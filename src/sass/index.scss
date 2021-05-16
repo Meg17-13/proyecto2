@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body { 
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header-youtube {
+    background-color: #202020;
+height: 56px;
+display: flex;
+justify-content: space-between;
+padding: 0px 25px ;
+align-items: center;
+    
+}
+
+.nav-logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    .barra {
+        font-size: 20px;
+    }
+
+    .logo-youtube{
+        width:80px
+    }
+    span {
+        color: gray;
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    
+}
+ .nav-search{
+     display: flex;
+     align-items: center;
+     width: 48%;
+
+
+     .content-input {
+         display: flex;
+         align-items: center;
+         width: 100%;
+
+         input {
+             width: 100%;
+             max-width: 650px;
+             background-color: #121212;
+             outline: none;
+             color: white;
+             height: 32px;
+             padding: 0 10px;
+             border: 1.3px  solid rgb(58, 55, 55);
+             &:focus {
+                 border: 1.3px solid rgb(29, 58, 92); 
+             }
+            
+         }
+         span{
+             color: gray;
+             background-color: #313131;
+             height: 32px;
+             width: 75px;
+             display: flex;
+             justify-content: center;
+             align-items: center; 
+                &:hover {
+                    color: white;
+            
+
+             }
+         }
+     }
+
+     svg{
+         margin-left: 10px;
+         width: 26px;
+         height: 26px;
+         color:white;
+         cursor: pointer;
+     }
+ }
+
+ .nav-icons{
+     display: flex;
+     
+     .content-icons
+     .avatar {
+         width: 36px;
+         border-radius: 50px;
+         display: flex;
+
+         
+     }
+
+ }
+ 
